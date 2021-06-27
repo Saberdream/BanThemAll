@@ -2,7 +2,7 @@
 // @name        Ban Them All!
 // @namespace   CrazyJeux/Daring-Do
 // @author		CrazyJeux/Daring-Do
-// @version     7.1
+// @version     7.2
 // @description Liste des informations sur tous les signalements que vous avez effectués.
 // @match		*://www.jeuxvideo.com/forums/*
 // @match		*://*.openuserjs.org/scripts/CrazyJeux/Ban_Them_All!/source
