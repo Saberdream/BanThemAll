@@ -728,7 +728,7 @@
 				return true;
 			}
 		}
-
+		
 		try {
 			if (window.location.hostname === "openuserjs.org") {
 				if (inIframe()) {
@@ -736,6 +736,7 @@
 				}
 				return;
 			}
+			
 
 			if (window.location.hostname === "www.jeuxvideo.com" || window.location.hostname === "www.forumjv.com") {
 				//console.log("Ban Them All! begin (outside)");
@@ -761,7 +762,8 @@
 					alert("Ban Them All! n'a pas pu être chargé...");
 				};
 				var currentVersionNumber = GM_info.script.version;
-				script.innerHTML = "(function(){ " + scriptContent.toString() + " var currentVersionNumber = " + currentVersionNumber + "; scriptContent();})();";
+				// console.log(GM_info.script.version);
+				script.innerHTML = "(function(){ " + scriptContent.toString() + " var currentVersionNumber = '" + currentVersionNumber + "'; scriptContent();})();";
 				document.head.appendChild(script);
 				//console.log("Ban Them All! end (outside)");
 			}
@@ -770,6 +772,7 @@
 			console.log(err);
 			alert(err);
 		}
+		
 	}
 
 toCall();
