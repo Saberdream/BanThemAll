@@ -639,7 +639,7 @@
 				if (document.querySelector(".menu-user-forum") !== null) {
 					var BanthemallLi = document.createElement("li");
 					var BTAName = "Ban Them All!";
-					BanthemallLi.innerHTML = '<span class="pull-left">'+ BTAName +'</span>';
+					BanthemallLi.innerHTML = '<span class="float-start">'+ BTAName +'</span>';
 					
 					var ShowBanthemallInput = document.createElement('input');
 					ShowBanthemallInput.className = 'input-on-off';
