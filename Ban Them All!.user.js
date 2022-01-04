@@ -6,7 +6,7 @@
 // @description Liste des informations sur tous les signalements que vous avez effectués.
 // @match		*://www.jeuxvideo.com/forums/*
 // @match		*://*.openuserjs.org/scripts/CrazyJeux/Ban_Them_All!/source
-// @icon        https://www.google.com/s2/favicons?domain=jeuxvideo.com
+// @icon        https://www.jeuxvideo.com/favicon.png
 // @resource	jQueryJS    https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.0/jquery.min.js
 // @grant       GM_getResourceText
 // @grant		unsafeWindow
